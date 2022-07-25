@@ -6,7 +6,6 @@ from netmiko import ConnectHandler
 init()
 from colorama import Fore,Back,Style
 from openpyxl import load_workbook
-import re
 import requests
 import urllib3
 import json

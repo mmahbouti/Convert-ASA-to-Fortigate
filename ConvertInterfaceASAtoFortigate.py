@@ -235,7 +235,7 @@ def config_with_netmiko(fgtip,interface_name, interface_type, vdom, interface_ro
     
 def create_interface(fgtip,interface_name, interface_type, vdom, interface_role, interface_allow_access, member, interface_vlanid,ip,interface,status):
     interface_link = '/system/interface'
-    interface_url = "https://" + fgtip + "/api/v2/cmdb" + interface_link + "?access_token=" + token + "&vdom=" + vdom 
+    #interface_url = "https://" + fgtip + "/api/v2/cmdb" + interface_link + "?access_token=" + token + "&vdom=" + vdom 
     interface_url = "https://" + fgtip + "/api/v2/cmdb" + interface_link + "?access_token=" + token  + "&vdom=" + vdom  
     #print(interface_name)
     #print (interface_url)
